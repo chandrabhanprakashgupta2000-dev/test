@@ -1,0 +1,4 @@
+run: |
+  python -m venv antenv
+  source antenv/bin/activate
+  pip install -r ./my_app/requirements.txt  # Update path here
